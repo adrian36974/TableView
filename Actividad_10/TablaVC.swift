@@ -27,6 +27,7 @@ class TablaVC: UITableViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.title = "Alumnos"
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
@@ -58,7 +59,7 @@ class TablaVC: UITableViewController {
         return cell
     }
     override func tableView(_ tableView: UITableView, titleForHeaderInSection section: Int) -> String? {
-        return "Section \(section)"
+        return "Alumnos"
     }
 
     /*
